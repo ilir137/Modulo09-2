@@ -1,0 +1,66 @@
+export const commonPasswords = [
+  "password",
+  "123456",
+  "qwerty",
+  "admin",
+  "letmein",
+  "welcome",
+  "monkey",
+  "sunshine",
+  "password1",
+  "123456789",
+  "football",
+  "iloveyou",
+  "1234567",
+  "123123",
+  "12345678",
+  "abc123",
+  "qwerty123",
+  "1q2w3e4r",
+  "baseball",
+  "password123",
+  "superman",
+  "987654321",
+  "mypass",
+  "trustno1",
+  "hello123",
+  "dragon",
+  "1234",
+  "555555",
+  "loveme",
+  "hello",
+  "hockey",
+  "letmein123",
+  "welcome123",
+  "mustang",
+  "shadow",
+  "12345",
+  "passw0rd",
+  "abcdef",
+  "123abc",
+  "football123",
+  "master",
+  "jordan23",
+  "access",
+  "flower",
+  "qwertyuiop",
+  "admin123",
+  "iloveyou123",
+  "welcome1",
+  "monkey123",
+  "sunshine1",
+  "password12",
+  "1234567890",
+];
+
+export const validacionClave = {
+    esValida: true,
+    error: null,
+}
+
+export const mensajeErrorPalabrasComunes = "La clave no debe contener palabras comunes";
+export const mensajeErrorMayusMinus = "La clave debe tener mayúsculas y minúsculas";
+export const mensajeErrorNumeros = "La clave debe tener números";
+export const mensajeErrorCaracteresEspeciales = "La clave debe tener caracteres especiales";
+export const mensajeErrorLongitudMinima = "La clave debe tener al menos 8 caracteres";
+export const mensajeErrorNombreUsuario = "La clave no debe tener el nombre del usuario";
