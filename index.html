@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
+    <title>Vite App</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Modulo 9: Clave fuerte</h1>
+        <div>
+            <label for="inputNombreUsuario">Nombre de Usuario:</label>
+            <input type="text" 
+                name="inputNombreUsuario"
+                id="inputNombreUsuario"
+                placeholder="Nombre de Usuario"
+                required>
+            <br>
+            <label for="inputClave">Contraseña</label>
+            <input type="text" 
+                name="inputClave"
+                id="inputClave"
+                placeholder="Contraseña"
+                required>
+            <br>
+            <button id="btnEnviar">Enviar</button>
+        </div>
+        <div id="divRequisitosClave">
+            <p>La contraseña debe tener:
+                <ul>
+                    <li>Mayúsculas y minúsculas</li>
+                    <li>Números</li>
+                    <li>caracteres especiales (@,#,+, _, ...)</li>
+                    <li>una longitud mínima de 8 caracteres</li>
+                    <li>La clave no puede contener el nombre de Usuario</li>
+                    <li>Palabras comunes</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
